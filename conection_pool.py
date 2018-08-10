@@ -6,10 +6,9 @@ Created on 7 ago. 2018
 
 import sqlite3
 import random
-import manejodb
 import time
 
-    
+
 class PoolConexiones():
     def __init__(self, numero_maximo_conexiones):
         self.numero_conexiones = numero_maximo_conexiones
